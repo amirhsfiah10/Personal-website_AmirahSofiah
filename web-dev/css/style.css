@@ -1,0 +1,44 @@
+body
+{
+	font-family: Arial;
+}h1
+		{
+			font-family: lucida handwriting;
+		}
+a:link 
+{
+	font-family: calibri;
+	font-size: 18px;
+	color: white ; 
+	text-decoration: none;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+a:hover
+{
+	color: whitesmoke;
+	background-color: darkred;
+	text-decoration: underline;
+}
+
+.container{
+
+      margin: 10px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      display: grid;
+      align-items: center;
+    }
+
+    .box{
+      height: 450px;
+      width: 700px;
+      background-color: papayawhip;
+      color: black;
+      border: solid darkred;
+      position: relative;
+    }
